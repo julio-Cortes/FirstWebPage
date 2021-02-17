@@ -4,7 +4,7 @@ const navBar = document.querySelector('#nav-bar')
 const button =document.querySelector('#toggle')
 const container = document.getElementsByClassName('main')[0];
 
-
+navBar.classList.add('active')
 window.onscroll = function() {myFunction()};
 var sticky = header.offsetTop;
 openNav.addEventListener('click',function(){
