@@ -17,6 +17,9 @@ html, body {
   color: white;
   scroll-behavior: smooth;
 }
+i{
+  transform: scale(1.5);
+}
 
 .container{
   margin:0;
@@ -55,7 +58,7 @@ a:-webkit-any-link {
   background: #131313;
   top: 0;
   min-height: 100%;
-  width: 6em;
+  width: 8em;
   margin:0;
 }
 .sticky{
@@ -68,15 +71,16 @@ a:-webkit-any-link {
   transition: 350ms;
 }
 .nav-button{
-  width: 3em;
-  top: 0;
+  width:5em;
+  top: 1%;
+  left: 2%;
   position: fixed;
 }
 .menu-bars{
-  width: 3em;
-  top: 0;
+  width: 4em;
+  top: 1%;
   position: absolute;
-  margin-left: 4.5em;
+  margin-left: 5.5em;
 }
 .nav-text{
   display: flex;
